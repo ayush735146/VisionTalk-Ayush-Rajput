@@ -1,0 +1,23 @@
+VISIONTALK LIVE LINK
+====================
+
+Status: PENDING DEPLOYMENT
+
+A real public URL cannot be fabricated. The Streamlit application is ready for deployment.
+
+Fast deployment:
+1. Push this project folder to a GitHub repository.
+2. Open https://share.streamlit.io/
+3. Select the repository and `app.py`.
+4. Add the required secrets/environment settings if your host needs them.
+5. Deploy and copy the generated public URL here.
+
+Suggested final URL format:
+https://<your-app-name>.streamlit.app
+
+Before deployment, include:
+- artifacts/caption_model.keras
+- artifacts/tokenizer.pkl
+- artifacts/max_length.json
+
+The ZIP intentionally contains this status file instead of a fake link.
