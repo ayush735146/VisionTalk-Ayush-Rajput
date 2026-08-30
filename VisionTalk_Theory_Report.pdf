@@ -1,0 +1,11 @@
+VisionTalk: Theory & Evaluation Report
+BY AYUSH RAJPUT
+
+1. Architecture Overview
+The system merges a pretrained VGG16 CNN encoder with an LSTM decoder to generate natural-language captions for images.
+
+2. Training & Inference
+Trained using Teacher Forcing on the Flickr8k dataset with categorical cross-entropy loss. Inference uses a greedy search strategy until the 'endseq' token is predicted.
+
+3. Evaluation
+Performance is measured using BLEU-1 and BLEU-4 evaluation metrics against human references.
